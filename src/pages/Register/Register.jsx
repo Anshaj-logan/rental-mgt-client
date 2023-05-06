@@ -61,8 +61,7 @@ const Register = () => {
     setformErrors(validate(inputs));
     setIssubmit(true);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-      axios
-        .post("http://localhost:2000/", inputs)
+      axios.post("http://localhost:2000/api/register", inputs)
         .then((data) => {
           console.log(data);
           // console.log(data.response.data.message);

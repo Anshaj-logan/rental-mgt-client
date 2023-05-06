@@ -25,8 +25,8 @@ export default function Nav() {
     id="navbarCollapse"
   >
     <div className="navbar-nav mr-auto py-0">
-    <a href="" className="nav-item nav-link">
-      <Link to={"/Login"}>Login </Link>
+    <a href="Login" className="nav-item nav-link">
+      Login 
 
       </a>
      
