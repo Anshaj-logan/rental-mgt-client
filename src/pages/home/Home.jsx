@@ -16,8 +16,8 @@ function Home() {
        Navbar Start  */}
       <div class="container-fluid mb-5">
         <div class="row border-top px-xl-5">
-           <SideBar/>
-           <div class="col-lg-9">
+           {/* <SideBar/> */}
+           <div class="col-lg-9" style={{margin:"auto"}}>
             <Nav/>
             <NavCarousel/>
             </div> 

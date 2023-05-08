@@ -15,7 +15,7 @@ const Userhome = () => {
        Navbar Start  */}
       <div class="container-fluid mb-5">
         <div class="row border-top px-xl-5">
-           <SideBar/>
+           {/* <SideBar/> */}
            <div class="col-lg-9">
             <Navuser/>
             <NavCarousel/>

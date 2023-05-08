@@ -51,7 +51,7 @@ function TopBar() {
           </h1>
         </a>
       </div>
-      <div className="col-lg-6 col-6 text-left">
+      {/* <div className="col-lg-6 col-6 text-left">
         <form action="">
           <div className="input-group">
             <input
@@ -66,8 +66,8 @@ function TopBar() {
             </div>
           </div>
         </form>
-      </div>
-      <div className="col-lg-3 col-6 text-right">
+      </div> */}
+      <div className="col-lg-3 col-6 text-right" style={{float:"right"}}>
         <a href="" className="btn border">
           <i className="fas fa-heart text-primary" />
           <span className="badge">0</span>
